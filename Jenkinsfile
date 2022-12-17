@@ -1,14 +1,14 @@
 pipeline {
     agent any
     environment {
-        APP_GIT_URL = "https://github.com/pornpasok/k8s-workshop"
+        APP_GIT_URL = "https://github.com/ninetea1688/k8s-workshop"
         APP_BRANCH = "main"
         APP_TAG = "latest"
         APP_NAME = "demo-app-k8s"
         APP_PORT = "3000"
         DEV_PROJECT = "workshop"
         SQ_SERVER = "https://sq.gmmo.tech"
-        ECR_SERVER = "470797444311.dkr.ecr.ap-southeast-1.amazonaws.com"
+        ECR_SERVER = "372467261613.dkr.ecr.ap-southeast-1.amazonaws.com/demo-app-k8s"
         AWS_DEFAULT_REGION = "ap-southeast-1"
         AWS_DEFAULT_PROFILE = "default"
         DOMAIN_NAME = "gmmo.tech"
